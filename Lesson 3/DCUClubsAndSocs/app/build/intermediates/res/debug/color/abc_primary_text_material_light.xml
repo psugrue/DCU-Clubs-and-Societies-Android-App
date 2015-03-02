@@ -18,4 +18,4 @@
     <item android:state_enabled="false" android:color="@color/primary_text_disabled_material_light"/>
     <item android:color="@color/primary_text_default_material_light"/>
 </selector>
-<!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_primary_text_material_light.xml -->
+<!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/color/abc_primary_text_material_light.xml -->

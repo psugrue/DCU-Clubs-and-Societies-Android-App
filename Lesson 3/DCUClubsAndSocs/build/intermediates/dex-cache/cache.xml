@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-916046c7d3a1b97a267400b2a15f2c4fb0614a23.jar" />
-    </item>
-    <item
         jar="C:\Users\Paul\Documents\Android Studio\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -16,11 +9,18 @@
         <dex dex="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-355af584622250742af3a3e48c6d9776772a91b7.jar" />
     </item>
     <item
-        jar="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jar="C:\Users\Paul\Documents\GitHub\DCU-Clubs-and-Societies-Android-App\Lesson 3\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Paul\Documents\GitHub\DCU-Clubs-and-Societies-Android-App\Lesson 3\DCUClubsAndSocs\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-cd064bed4489215d4c34f06a9b23b29067afbb26.jar" />
+    </item>
+    <item
+        jar="C:\Users\Paul\Documents\GitHub\DCU-Clubs-and-Societies-Android-App\Lesson 3\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\pre-dexed\debug\classes-63e35220987d583b0ca056a03d2c685ad197ae9f.jar" />
+        <dex dex="C:\Users\Paul\Documents\GitHub\DCU-Clubs-and-Societies-Android-App\Lesson 3\DCUClubsAndSocs\app\build\intermediates\pre-dexed\debug\classes-7dc127274f4741d6fc20d1965450fae6332f0853.jar" />
     </item>
     <item
         jar="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
@@ -28,6 +28,27 @@
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\pre-dexed\debug\classes-04ba0915564ecc7cc02c0d6f89d318601529fce5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-916046c7d3a1b97a267400b2a15f2c4fb0614a23.jar" />
+    </item>
+    <item
+        jar="C:\Users\Paul\Documents\GitHub\DCU-Clubs-and-Societies-Android-App\Lesson 3\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Paul\Documents\GitHub\DCU-Clubs-and-Societies-Android-App\Lesson 3\DCUClubsAndSocs\app\build\intermediates\pre-dexed\debug\classes-eb5a84afa4984834b8544ad1209711f7e3df2b2f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Paul\Documents\Android Projects\DCUClubsAndSocs\app\build\intermediates\pre-dexed\debug\classes-63e35220987d583b0ca056a03d2c685ad197ae9f.jar" />
     </item>
 
 </items>

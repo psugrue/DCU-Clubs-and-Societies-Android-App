@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/strings_activity_settings.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/strings_activity_settings.xml -->
     <eat-comment/>
     <string-array name="pref_example_list_titles">
         <item>Always</item>
@@ -12,13 +12,13 @@
         <item>0</item>
         <item>-1</item>
     </string-array>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/arrays.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="pref_opinion_values">
      <item>@string/pref_opinion_yes</item>
      <item>@string/pref_opinion_no</item>
      </string-array>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/strings_activity_settings.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/strings_activity_settings.xml -->
     <eat-comment/>
     <string-array name="pref_sync_frequency_titles">
         <item>15 minutes</item>
@@ -36,13 +36,13 @@
         <item>360</item>
         <item>-1</item>
     </string-array>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/arrays.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="pref_units_options">
          <item>@string/pref_opinion_label_yes</item>
          <item>@string/pref_opinion_label_no</item>
          </string-array>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -163,11 +163,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -201,14 +201,14 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_refresh" translatable="false">Refresh</string>
     <string name="action_settings">Settings</string>
     <string name="action_share">Share</string>
     <string name="app_name">DCU Clubs And Socs</string>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/strings_activity_settings.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/strings_activity_settings.xml -->
     <eat-comment/>
     <string name="pref_default_display_name">John Smith</string>
     <string name="pref_description_social_recommendations">Recommendations for people to contact
@@ -217,7 +217,7 @@
     <string name="pref_header_data_sync">Data &amp; sync</string>
     <string name="pref_header_general">General</string>
     <string name="pref_header_notifications">Notifications</string>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="pref_location_default" translatable="false">Dublin</string>
     <string name="pref_location_key" translatable="false">location</string>
@@ -229,7 +229,7 @@
     <string name="pref_opinion_label_yes" translatable="false">Yes I Give A Fuck</string>
     <string name="pref_opinion_no" translatable="false">no</string>
     <string name="pref_opinion_yes" translatable="false">yes</string>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/strings_activity_settings.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/strings_activity_settings.xml -->
     <eat-comment/>
     <string name="pref_ringtone_silent">Silent</string>
     <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
@@ -240,13 +240,13 @@
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <string name="pref_title_system_sync_settings">System sync settings</string>
     <string name="pref_title_vibrate">Vibrate</string>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_detail">Details</string>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/strings_activity_settings.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/strings_activity_settings.xml -->
     <eat-comment/>
     <string name="title_activity_settings">Settings</string>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -257,7 +257,7 @@
     <style name="AppTheme3" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
     </style>
-    <!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/DCUClubsAndSocs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Paul/Documents/GitHub/DCU-Clubs-and-Societies-Android-App/Lesson%203/DCUClubsAndSocs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
