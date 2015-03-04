@@ -61,7 +61,7 @@ public class DetailActivity extends ActionBarActivity {
 
         private static final String LOG_TAG =DetailFragment.class.getSimpleName();
         private static final String SOCIETY_SHARE_HASHTAG= "#DCUClubsSocsApp";
-        private String societyStr;
+        private String societyStr,societyStr2;
 
         public DetailFragment() {
             setHasOptionsMenu(true);
@@ -74,8 +74,9 @@ public class DetailActivity extends ActionBarActivity {
             View rootView = inflater.inflate(R.layout.fragment_detail, container, false);
             if(intent!=null && intent.hasExtra(Intent.EXTRA_TEXT)){
                 societyStr=intent.getStringExtra(Intent.EXTRA_TEXT);
-                societyStr=societyStr + " fuck yea!";
-                ((TextView) rootView.findViewById(R.id.detail_text)).setText(societyStr);
+                societyStr2= "Welcome to " + societyStr + " contact page.\nPlease " +
+                        "find necessary contact information below.";
+                ((TextView) rootView.findViewById(R.id.detail_text)).setText(societyStr2);
             }
             return rootView;
         }
@@ -103,7 +104,7 @@ public class DetailActivity extends ActionBarActivity {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
             shareIntent.setType("text/plain");
-            shareIntent.putExtra(Intent.EXTRA_TEXT,societyStr + SOCIETY_SHARE_HASHTAG);
+            shareIntent.putExtra(Intent.EXTRA_TEXT,societyStr2 + SOCIETY_SHARE_HASHTAG);
             return shareIntent;
         }
     }
