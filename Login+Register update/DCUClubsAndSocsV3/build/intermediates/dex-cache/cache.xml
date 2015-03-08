@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Documents College\Dave\DCU-CLUBS-AND-SOCS-master\DCUClubsAndSocsV3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\Documents College\Dave\DCU-CLUBS-AND-SOCS-master\DCUClubsAndSocsV3\app\build\intermediates\pre-dexed\debug\classes-b471fae425ca7f08462fcf45965eaddd8cdc12ec.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\DCUClubsAndSocsV3\app\libs\volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="D:\AndroidStudioProjects\DCUClubsAndSocsV3\app\build\intermediates\pre-dexed\debug\volley-b55f791c0f1af6280461396437c0ecf31c01cce5.jar" />
+    </item>
+    <item
+        jar="D:\Documents College\Dave\DCU-CLUBS-AND-SOCS-master\DCUClubsAndSocsV3\app\libs\volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="D:\Documents College\Dave\DCU-CLUBS-AND-SOCS-master\DCUClubsAndSocsV3\app\build\intermediates\pre-dexed\debug\volley-f586f2b53503024415905c4eb26ec3486cc0e75d.jar" />
+    </item>
+    <item
+        jar="D:\Documents College\Dave\DCU-CLUBS-AND-SOCS-master\DCUClubsAndSocsV3\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Documents College\Dave\DCU-CLUBS-AND-SOCS-master\DCUClubsAndSocsV3\app\build\intermediates\pre-dexed\debug\classes-c4a126f10eee313742ab97df4073bd279a897d09.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\DCUClubsAndSocsV3\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\AndroidStudioProjects\DCUClubsAndSocsV3\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-9345661055588145459bd0ffcb288cdd62b356ab.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\DCUClubsAndSocsV3\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\AndroidStudioProjects\DCUClubsAndSocsV3\app\build\intermediates\pre-dexed\debug\classes-d569f393407e210328ced0e6c49bac76af8f074f.jar" />
+    </item>
+    <item
+        jar="D:\Documents College\Dave\DCU-CLUBS-AND-SOCS-master\DCUClubsAndSocsV3\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\Documents College\Dave\DCU-CLUBS-AND-SOCS-master\DCUClubsAndSocsV3\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c13135323f3f34d535e76ad7010833802492452e.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\DCUClubsAndSocsV3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\AndroidStudioProjects\DCUClubsAndSocsV3\app\build\intermediates\pre-dexed\debug\classes-07d73b2d859d775d20df5c7fbac5ed7489dcc517.jar" />
+    </item>
+    <item
+        jar="D:\Android\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\Documents College\Dave\DCU-CLUBS-AND-SOCS-master\DCUClubsAndSocsV3\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-dc8227eddef5ef217779ec1de2c8dcaaaa31e91a.jar" />
+    </item>
+
+</items>

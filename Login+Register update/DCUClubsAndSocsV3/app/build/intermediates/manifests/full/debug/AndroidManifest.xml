@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.college.dcuclubsandsocs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <!-- app permissions go here -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.college.dcuclubsandsocs.HomeActivity"
+            android:label="DCU Clubs And Socs"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="com.example.college.dcuclubsandsocs.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.college.dcuclubsandsocs.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName="com.example.college.dcuclubsandsocs.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.college.dcuclubsandsocs.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.example.college.dcuclubsandsocs.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.college.dcuclubsandsocs.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.college.dcuclubsandsocs.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.college.dcuclubsandsocs.RegisterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>

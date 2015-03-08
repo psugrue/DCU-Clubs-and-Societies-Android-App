@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DCU Clubs And Socs</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">share</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_location_key" transtable="false">location</string>
+    <string name="pref_location_label">location</string>
+    <string name="pref_default_location" translatable="false">Dublin</string>
+    <string name="pref_notifications_label">Notifications</string>
+    <string name="pref_notifications_key" translatable ="false">Notifications</string>
+    <string name="pref_notifications_default">On</string>
+    <string name="pref_notifications_on" translatable = "false">On</string>
+    <string name="pref_notifications_off" translatable = "false">Off</string>
+    <string name="pref_notifications_label_on" translatable = "false">On</string>
+    <string name="pref_notifications_label_off" translatable = "false">Off</string>
+
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+
+</resources>
