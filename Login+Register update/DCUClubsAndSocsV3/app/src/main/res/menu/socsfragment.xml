@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_messages"
+        android:title="Messages"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_posts"
+        android:title="Posts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_threads"
+        android:title="Threads"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_listAll"
+        android:title="All Societies/Clubs"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reportProblem"
+        android:title="Report A Problem"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_aboutApp"
+        android:title="About"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        app:showAsAction="never"  />
+
+</menu>
