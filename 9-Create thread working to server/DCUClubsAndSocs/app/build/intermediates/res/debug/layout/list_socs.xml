@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:background="#e9e8dd"
+    android:id="@+id/list_socs_textview" /><!-- From: file:/D:/AndroidStudioProjects/Home%20Page%20Test%20Code/DCUClubsAndSocs/app/src/main/res/layout/list_socs.xml -->
