@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#e9e8dd"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.college.dcuclubsandsocs.SocHomePageActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/threadTitle"
+        android:text="Thread Homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/create_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/threadTitle"
+        android:background="@xml/button_curve"
+        android:text="Create Comment" />
+
+
+
+    <ListView
+        android:id="@+id/listview_comments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/create_comment"
+        android:layout_weight="10"
+
+        />
+
+</RelativeLayout>
+
