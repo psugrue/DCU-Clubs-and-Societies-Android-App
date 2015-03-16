@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DCU Clubs And Socs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">Contact Info</string>
+    <string name="action_share">Share</string>
+    <string name="app_soc_list">Club/Society List</string>
+    <!--<string name="title_activity_settings">Settings</string>-->
+
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default" translatable="false">Dublin</string>
+
+    <string name="pref_opinion_label">Notifications</string>
+    <string name="pref_opinion_default" translatable="false">On</string>
+    <string name="pref_opinion_key2" translatable="false">opinion</string>
+    <string name="pref_opinion_yes" translatable="false">yes</string>
+    <string name="pref_opinion_no" translatable="false">no</string>
+    <string name="pref_opinion_label_yes" translatable="false">On</string>
+    <string name="pref_opinion_label_no" translatable="false">Off</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_soc_home_page">SocHomePageActivity</string>
+    <string name="title_activity_thread_page">ThreadPageActivity</string>
+    <string name="title_activity_list_socs">ListSocs</string>
+    <string name="title_activity_about_page">AboutPageActivity</string>
+    <string name="title_activity_create_thread">CreateThread</string>
+    <string name="title_activity_my_posts_socs_list">MyPostsSocsList</string>
+    <string name="title_activity_my_threads_list">MyThreadsList</string>
+    <string name="title_activity_reset_password">ResetPassword</string>
+
+
+</resources>

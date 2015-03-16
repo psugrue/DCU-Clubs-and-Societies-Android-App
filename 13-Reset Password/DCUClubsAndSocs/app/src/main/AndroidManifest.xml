@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.college.dcuclubsandsocs" >
+
+    <!-- app permissions go here -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+     To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme3" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.college.dcuclubsandsocs.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.college.dcuclubsandsocs.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HomePageActivity"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name=".SocHomePageActivity"
+            android:label="@string/title_activity_soc_home_page"
+            android:parentActivityName=".HomePageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.college.dcuclubsandsocs.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".ThreadPageActivity"
+            android:label="@string/title_activity_thread_page"
+            android:parentActivityName=".SocHomePageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.college.dcuclubsandsocs.SocHomePageActivity" />
+        </activity>
+        <activity
+            android:name=".ListSocs"
+            android:label="@string/title_activity_list_socs" >
+        </activity>
+        <activity
+            android:name=".AboutPageActivity"
+            android:label="@string/title_activity_about_page" >
+        </activity>
+        <activity
+            android:name=".CreateThread"
+            android:label="@string/title_activity_create_thread" >
+        </activity>
+        <activity
+            android:name=".CreateComment"
+            android:label="title_activity_create_comment" >
+        </activity>
+        <activity
+            android:name=".MyPostsSocsList"
+            android:label="@string/title_activity_my_posts_socs_list"
+            android:parentActivityName=".HomePageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.college.dcuclubsandsocs.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".MyThreadsList"
+            android:label="@string/title_activity_my_threads_list"
+            android:parentActivityName=".HomePageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.college.dcuclubsandsocs.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".ResetPassword"
+            android:label="@string/title_activity_reset_password" >
+        </activity>
+        <activity
+            android:name=".EnterCode"
+            android:label="EnterCode" >
+        </activity>
+        <activity
+            android:name=".ChooseNewPassword"
+            android:label="ChooserNewPassword" >
+        </activity>
+    </application>
+
+</manifest>

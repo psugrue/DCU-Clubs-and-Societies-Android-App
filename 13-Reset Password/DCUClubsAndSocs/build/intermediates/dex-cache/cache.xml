@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidStudioProjects\9 Server Transfer\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\AndroidStudioProjects\9 Server Transfer\DCUClubsAndSocs\app\build\intermediates\pre-dexed\release\classes-54dc2ae9d9aeeb04fcad3977191c6d5a167e122d.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\9 Server Transfer\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="D:\AndroidStudioProjects\9 Server Transfer\DCUClubsAndSocs\app\build\intermediates\pre-dexed\release\classes-8078fa0281ec53003145ec88d5244377e8fb6732.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\9 Server Transfer\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\AndroidStudioProjects\9 Server Transfer\DCUClubsAndSocs\app\build\intermediates\pre-dexed\release\classes-709f92d03b694486fc868fc09bd276dca938e33e.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\9 Server Transfer\DCUClubsAndSocs\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\AndroidStudioProjects\9 Server Transfer\DCUClubsAndSocs\app\build\intermediates\pre-dexed\release\internal_impl-21.0.3-92b871a6638e9d0b6f53085e83813a60579812c2.jar" />
+    </item>
+    <item
+        jar="D:\Android\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\AndroidStudioProjects\9 Server Transfer\DCUClubsAndSocs\app\build\intermediates\pre-dexed\release\support-annotations-21.0.3-dc8227eddef5ef217779ec1de2c8dcaaaa31e91a.jar" />
+    </item>
+
+</items>
