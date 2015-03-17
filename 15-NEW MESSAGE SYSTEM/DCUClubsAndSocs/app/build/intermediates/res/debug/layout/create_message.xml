@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9e8dd"
+    >
+
+
+    <TextView
+        android:id="@+id/textview_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/create_message_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="15dip"
+        android:background="@xml/border"
+        android:singleLine="true"
+        android:hint="username       "/>
+
+
+
+    <TextView
+        android:id="@+id/textview_message2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="50dip"
+        android:textSize="17dip"
+        android:text="Message" />
+
+    <EditText
+        android:id="@+id/create_message2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:paddingTop="20dip"
+        android:paddingBottom="30dip"
+        android:lines="4"
+        android:gravity="top"
+        android:background="@xml/border"
+        android:hint="message"/>
+
+
+
+    <Button
+
+        android:id="@+id/sendM"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/button_curve2"
+        android:layout_marginTop="30dp"
+        android:text="Send Message" />
+
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/14-%20Message%20System/DCUClubsAndSocs/app/src/main/res/layout/create_message.xml -->
