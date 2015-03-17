@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#e9e8dd"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.college.dcuclubsandsocs.DeletePost$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/confirm_message"
+        android:layout_marginTop="20dp"
+        android:text="@string/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:id="@+id/yes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_message"
+        android:background="@xml/button_curve2"
+        android:layout_marginTop="20dp"
+        android:text="Yes" />
+
+    <Button
+
+        android:id="@+id/no"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yes"
+        android:layout_marginTop="20dp"
+        android:background="@xml/button3"
+        android:text="No" />
+
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/Newest/DCUClubsAndSocs/app/src/main/res/layout/fragment_delete_post.xml -->

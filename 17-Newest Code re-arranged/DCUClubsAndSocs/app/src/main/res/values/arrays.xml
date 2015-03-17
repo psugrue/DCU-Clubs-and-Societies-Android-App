@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_units_options">
+         <item>@string/pref_opinion_label_yes</item>
+         <item>@string/pref_opinion_label_no</item>
+         </string-array>
+
+     <string-array name="pref_opinion_values">
+     <item>@string/pref_opinion_yes</item>
+     <item>@string/pref_opinion_no</item>
+     </string-array>
+
+    <string-array name="menu">
+        <item>************</item>
+        <item>Delete Post?</item>
+        <item>************</item>
+    </string-array>
+
+
+
+    <string-array name="messageReply">
+        <item>************</item>
+        <item>Reply?</item>
+        <item>************</item>
+    </string-array>
+
+</resources>
