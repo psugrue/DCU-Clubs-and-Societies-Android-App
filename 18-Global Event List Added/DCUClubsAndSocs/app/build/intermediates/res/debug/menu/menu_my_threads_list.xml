@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.college.dcuclubsandsocs.MyThreadsList">
+
+
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_messages"
+        android:title="Messages"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_posts"
+        android:title="Posts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_events"
+        android:title="Global Events"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_listAll"
+        android:title="All Societies/Clubs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_aboutApp"
+        android:title="About"
+        app:showAsAction="never" />
+
+
+</menu>
+<!-- From: file:/D:/AndroidStudioProjects/15-After%20Deadline/DCUClubsAndSocs/app/src/main/res/menu/menu_my_threads_list.xml -->

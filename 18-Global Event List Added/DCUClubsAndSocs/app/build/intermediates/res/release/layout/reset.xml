@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e8dd"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/dcu3" />
+
+
+    <TextView
+        android:id="@+id/textView_reset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:textSize="15dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="20dip"
+        android:layout_centerVertical="true"
+        android:text="Enter Your Email Below" />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_reset"
+        android:layout_marginTop="20dip"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="example@gmail.com"/>
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="fill_parent"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email2"
+        android:layout_marginTop="30dp"
+        android:background="@xml/button3"
+        android:text="Reset Password" />
+
+
+
+
+
+
+</RelativeLayout><!-- From: file:/C:/Users/Paul/Documents/Android%20Projects/Newest%20Code/DCUClubsAndSocs/app/src/main/res/layout/reset.xml -->

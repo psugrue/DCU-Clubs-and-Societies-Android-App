@@ -1,0 +1,55 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#e9e8dd"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.college.dcuclubsandsocs.SocHomePageActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/socHomeTitle"
+        android:text="Society Homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+
+    <ListView
+        android:id="@+id/listview_threads"
+        android:layout_below="@+id/socHomeTitle"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:divider="#000000"
+        android:dividerHeight="4px"
+        android:layout_weight="1"
+
+        android:layout_above="@+id/create_threadPage" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/create_threadPage"
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:background="@xml/button_curve"
+        android:text="Create Thread"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/15-After%20Deadline/DCUClubsAndSocs/app/src/main/res/layout/fragment_soc_home_page.xml -->

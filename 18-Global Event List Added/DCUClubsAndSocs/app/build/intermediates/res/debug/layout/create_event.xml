@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9fbb58"
+    >
+
+
+    <TextView
+        android:id="@+id/textview_createEvent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"
+        android:text="Society"
+        android:textStyle="bold|italic"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/create_event_title2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@xml/border"
+        android:singleLine="true"
+        android:hint="  society"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textview_createEvent1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"
+        android:text="Title"
+        android:textStyle="bold|italic"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/create_event_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@xml/border"
+        android:singleLine="true"
+        android:hint="  title"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+
+    <TextView
+        android:id="@+id/textview_createEvent2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textSize="17dip"
+        android:text="Message"
+        android:textStyle="bold|italic"
+        android:layout_weight="2"/>
+
+    <EditText
+        android:id="@+id/create_event_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:paddingTop="20dip"
+        android:lines="4"
+        android:gravity="top"
+        android:background="@xml/border"
+        android:hint="  message"
+        android:layout_weight="4"/>
+
+
+    <TextView
+        android:id="@+id/textview_NumberAttending"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"
+        android:text="Number Attending"
+        android:textStyle="bold|italic"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/numberAttending"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@xml/border"
+        android:singleLine="true"
+        android:inputType="number"
+        android:hint=" number attending"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <Button
+
+        android:id="@+id/createE"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/button_curve2"
+        android:text="Create Event"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"/>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/15-After%20Deadline/DCUClubsAndSocs/app/src/main/res/layout/create_event.xml -->

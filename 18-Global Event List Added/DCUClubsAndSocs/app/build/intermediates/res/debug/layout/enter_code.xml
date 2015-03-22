@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e8dd"
+    >
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/dcu3" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView11"
+        android:layout_alignLeft="@+id/imageView11"
+        android:layout_alignRight="@+id/imageView11"
+        android:layout_marginTop="50dp"
+        android:layout_centerVertical="true"
+        android:text="A code has been sent to your email address. Enter the code in the box below." />
+
+    <TextView
+        android:id="@+id/enterCodetextView1a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView11"
+        android:layout_alignRight="@+id/imageView11"
+        android:layout_below="@+id/instructions"
+        android:layout_marginTop="30dp"
+        android:layout_centerVertical="true"
+        android:text="Code" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/enterCodetextView1a"
+        android:layout_alignLeft="@+id/imageView11"
+        android:layout_alignRight="@+id/imageView11"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="code"/>
+
+
+
+    <Button
+        android:id="@+id/enterCode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView11"
+        android:layout_alignRight="@+id/imageView11"
+        android:layout_below="@+id/code"
+        android:background="@xml/button_curve"
+        android:text="Enter" />
+
+</RelativeLayout><!-- From: file:/D:/AndroidStudioProjects/15-After%20Deadline/DCUClubsAndSocs/app/src/main/res/layout/enter_code.xml -->
